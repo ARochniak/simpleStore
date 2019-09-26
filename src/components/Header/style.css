@@ -1,0 +1,30 @@
+header {
+	height: 15vh;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 20px;
+	box-sizing: border-box;
+	background-color: #00a288;
+	border-bottom: 10px solid white;
+}
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.header button {
+	margin: auto 20px;
+}
+.header label {
+	color: white;
+	cursor: pointer;
+}
+header nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+header nav ul li a {
+	text-decoration: none;
+	color: white;
+}
